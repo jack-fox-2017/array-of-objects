@@ -21,16 +21,3 @@ function getData (name) {
   }
 }
 console.log(getData('Icha'));
-
-
-
-
-
-
-  // function ambilData (name) {
-  //   for (var i = 0 ; i <arr.length; i++){
-  //     if (arr[i].name == name){
-  //       return arr[i]
-  //     }
-  //   }
-  // }
