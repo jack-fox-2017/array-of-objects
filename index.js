@@ -7,16 +7,16 @@ function createObj(name, phase, gender) {
   obj.name = name
   obj.phase = phase
   obj.gender = gender
-  return obj
+  arr.push(obj)
 }
 
 // let obj = createObj('Akbar',1,'male'),createObj('icha',1,'female')
 
-arr.push(createObj('Akbar',1,'male'))
-arr.push(createObj('Icha',1,'female'))
-arr.push(createObj('Adhit',2,'male'))
-arr.push(createObj('Tama',2,'male'))
-arr.push(createObj('Rifky',3,'male'))
+createObj('Akbar',1,'male')
+createObj('Icha',1,'female')
+createObj('Adhit',2,'male')
+createObj('Tama',2,'male')
+createObj('Rifky',3,'male')
 
 
 function getData(name){
