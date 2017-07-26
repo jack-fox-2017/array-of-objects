@@ -15,3 +15,15 @@ createObj('Teja', 1, 'Male')
 createObj('Rahmat', 1, 'Male')
 
 console.log(arr);
+
+
+
+var getData = (name) => {
+  for (let i=0; i<arr.length; i++) {
+    if (arr[i].name == name) {
+      return arr[i]
+    }
+  }
+}
+
+console.log(getData('Rahmat'));
